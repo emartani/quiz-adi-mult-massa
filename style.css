@@ -144,3 +144,11 @@ h1 {
 #next-btn:hover {
     opacity: 0.9;
 }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: small;
+    color: #777;
+    margin-top: 20px; /* Opcional: adiciona um espaço acima do rodapé */
+}
