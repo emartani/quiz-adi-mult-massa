@@ -1,0 +1,132 @@
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #f0f0f0;
+    --tertiary-color: #333;
+    --correct-color: #28a745;
+    --wrong-color: #dc3545;
+}
+
+body {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    color: var(--tertiary-color);
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+#quiz-box {
+    margin-top: 20px;
+}
+
+#question {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+    color: var(--tertiary-color);
+    font-size: 1.2rem;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover:not([disabled]) {
+    background-color: var(--primary-color);
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.btn.correct {
+    background-color: var(--correct-color);
+    color: #fff;
+    border-color: var(--correct-color);
+}
+
+.btn.wrong {
+    background-color: var(--wrong-color);
+    color: #fff;
+    border-color: var(--wrong-color);
+}
+
+.hide {
+    display: none;
+}
+
+#feedback {
+    font-size: 1.2rem;
+    font-weight: bold;
+    min-height: 25px;
+    margin-bottom: 15px;
+}
+
+#next-btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#next-btn:hover {
+    opacity: 0.9;
+}
+
+#status-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--tertiary-color);
+}
+
+#correct-count {
+    color: #28a745; /* Verde */
+}
+
+#wrong-count {
+    color: #dc3545; /* Vermelho */
+}
+
+#counter-text {
+    color: #007bff; /* Azul */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: small;
+    color: #777;
+    margin-top: 20px; /* Opcional: adiciona um espaço acima do rodapé */
+}
