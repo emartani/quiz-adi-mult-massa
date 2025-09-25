@@ -14,6 +14,9 @@ body {
     min-height: 100vh;
     font-family: 'Arial', sans-serif;
     color: var(--tertiary-color);
+    margin: 0; /* Adicionado para remover margens padrão */
+    padding: 20px; /* Adicionado para dar um espaçamento nas bordas */
+    box-sizing: border-box; /* Adicionado para o padding não expandir o elemento */
 }
 
 .container {
@@ -22,8 +25,12 @@ body {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 90%;
+    width: 100%; /* Alterado de 90% para 100% para ocupar toda a largura */
     max-width: 600px;
+    display: flex; /* Adicionado para flexbox */
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+    flex-grow: 1;
 }
 
 h1 {
