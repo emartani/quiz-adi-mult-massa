@@ -145,10 +145,21 @@ h1 {
     opacity: 0.9;
 }
 
+/* Estilo padrão para telas maiores */
 footer {
     text-align: center;
     padding: 10px;
-    font-size: small;
+    font-size: 1rem; /* Tamanho da fonte padrão, para telas maiores */
     color: #777;
-    margin-top: 20px; /* Opcional: adiciona um espaço acima do rodapé */
+    margin-top: 20px;
+}
+
+/* Regra para telas com largura máxima de 480px (telas de celular) */
+@media (max-width: 480px) {
+    footer {
+        font-size: 0.8rem; /* Diminui a fonte para 80% do tamanho padrão */
+        white-space: nowrap; /* Impede a quebra de linha do texto */
+        overflow: hidden; /* Esconde qualquer texto que ultrapasse a linha */
+        text-overflow: ellipsis; /* Adiciona "..." no final se o texto for cortado */
+    }
 }
