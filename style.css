@@ -43,9 +43,9 @@ h1 {
 #status-bar {
     display: flex;
     justify-content: space-between;
-    font-size: 1rem; /* Diminui a fonte do placar */
+    font-size: 1rem;
     font-weight: bold;
-    color: var(--tertiary-color);
+    gap: 10px; /* Adiciona um pequeno espaço entre os elementos */
 }
 
 #score {
@@ -53,7 +53,8 @@ h1 {
 }
 
 #question-counter {
-    text-align: right;
+    white-space: nowrap; /* Impede a quebra de linha na frase */
+    font-size: 0.9rem; /* Diminui a fonte para que caiba na linha */
 }
 
 #correct-count {
