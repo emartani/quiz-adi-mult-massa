@@ -13,14 +13,14 @@ const questions = [
         calculation: "1kg é igual a 1000g. 1000g + 500g = 1500g, que é 1kg e 500g."
     },
     {
-        question: "Para fazer um bolo, a Ana usou 250g de farinha e 150g de açúcar. Qual é a massa total dos ingredientes secos?",
+        question: "Para fazer um bolo, a Ana usou 250g de farinha e 40g de açúcar. Qual é a massa total dos ingredientes secos?",
         answers: [
             { text: "350g", correct: false },
             { text: "450g", correct: false },
-            { text: "400g", correct: true },
-            { text: "300g", correct: false },
+            { text: "290g", correct: true },
+            { text: "390g", correct: false },
         ],
-        calculation: "250g + 150g = 400g."
+        calculation: "250g + 40g = 290g."
     },
     {
         question: "O feirante vendeu 5kg de batatas pela manhã e 8kg à tarde. Quantos quilos de batata ele vendeu no total?",
@@ -43,14 +43,14 @@ const questions = [
         calculation: "500g + 200g = 700g."
     },
     {
-        question: "O atleta comeu 100g de arroz e 150g de frango no almoço. Qual a massa total de sua refeição?",
+        question: "O atleta comeu 150g de arroz e 100g de frango no almoço. Qual a massa total de sua refeição?",
         answers: [
             { text: "200g", correct: false },
             { text: "250g", correct: true },
             { text: "300g", correct: false },
             { text: "180g", correct: false },
         ],
-        calculation: "100g + 150g = 250g."
+        calculation: "150g + 100g = 250g."
     },
     {
         question: "O papai comprou uma melancia de 4kg e um melão de 2kg. Qual é a massa total das frutas?",
@@ -73,14 +73,14 @@ const questions = [
         calculation: "1kg (1000g) + 250g = 1250g, que é 1kg e 250g."
     },
     {
-        question: "Uma receita pede 350g de chocolate em barra e 50g de gotas de chocolate. Qual a massa total de chocolate usada?",
+        question: "Uma receita pede 350g de chocolate em barra e 20g de gotas de chocolate. Qual a massa total de chocolate usada?",
         answers: [
-            { text: "400g", correct: true },
+            { text: "370g", correct: true },
             { text: "300g", correct: false },
             { text: "500g", correct: false },
             { text: "450g", correct: false },
         ],
-        calculation: "350g + 50g = 400g."
+        calculation: "350g + 20g = 370g."
     },
     {
         question: "O João pescou um peixe de 1kg e outro de 800g. Qual é a massa total dos peixes que ele pescou?",
@@ -117,24 +117,24 @@ const questions = [
         calculation: "5kg - 2kg = 3kg. Sobraram 3 quilos de batata."
     },
     {
-        question: "A mamãe tinha um pacote de farinha com 1000g. Ela usou 400g para fazer o bolo. Quantos gramas de farinha sobraram?",
+        question: "A mamãe tinha um pacote de farinha com 1500g. Ela usou 400g para fazer o bolo. Quantos gramas de farinha sobraram?",
         answers: [
             { text: "500g", correct: false },
             { text: "700g", correct: false },
-            { text: "600g", correct: true },
+            { text: "1100g", correct: true },
             { text: "800g", correct: false },
         ],
-        calculation: "1000g - 400g = 600g."
+        calculation: "1500g - 400g = 1100g."
     },
     {
-        question: "O João tinha 2kg de feijão. Ele vendeu 500g. Quantos gramas de feijão sobraram?",
+        question: "O João tinha 900g de feijão. Ele vendeu 400g. Quantos gramas de feijão sobraram?",
         answers: [
             { text: "1000g", correct: false },
-            { text: "1500g", correct: true },
-            { text: "500g", correct: false },
+            { text: "500g", correct: true },
+            { text: "1200g", correct: false },
             { text: "2000g", correct: false },
         ],
-        calculation: "2kg é 2000g. 2000g - 500g = 1500g."
+        calculation: "900g - 400g = 500g."
     },
     {
         question: "Um saco de cimento tem 25kg. O pedreiro usou 10kg para construir uma parede. Quantos quilos de cimento sobraram?",
@@ -177,14 +177,14 @@ const questions = [
         calculation: "4kg - 1kg = 3kg."
     },
     {
-        question: "O padeiro tinha 1500g de massa de pão. Ele usou 800g para fazer os pães de queijo. Quantos gramas de massa sobraram?",
+        question: "O padeiro tinha 1500g de massa de pão. Ele usou 400g para fazer os pães de queijo. Quantos gramas de massa sobraram?",
         answers: [
             { text: "500g", correct: false },
             { text: "600g", correct: false },
-            { text: "700g", correct: true },
+            { text: "1100g", correct: true },
             { text: "800g", correct: false },
         ],
-        calculation: "1500g - 800g = 700g."
+        calculation: "1500g - 400g = 1100g."
     },
     {
         question: "Um caminhão saiu com 50kg de areia. Ele descarregou 20kg. Quantos quilos de areia restam no caminhão?",
@@ -197,14 +197,14 @@ const questions = [
         calculation: "50kg - 20kg = 30kg."
     },
     {
-        question: "A avó do Lucas comprou 1kg de morangos. A família comeu 600g. Quantos gramas de morangos sobraram?",
+        question: "A avó do Lucas comprou 950g de morangos. A família comeu 240g. Quantos gramas de morangos sobraram?",
         answers: [
             { text: "300g", correct: false },
-            { text: "400g", correct: true },
+            { text: "710g", correct: true },
             { text: "500g", correct: false },
             { text: "200g", correct: false },
         ],
-        calculation: "1kg é 1000g. 1000g - 600g = 400g."
+        calculation: "950g - 240g = 710g."
     },
 
     // -----------------------------------------------------
@@ -241,14 +241,14 @@ const questions = [
         calculation: "5 caixas x 10kg/caixa = 50kg."
     },
     {
-        question: "Um pacote de arroz tem 5kg. Se a mamãe comprou 6 pacotes, qual a massa total de arroz que ela tem em casa?",
+        question: "Um pacote de arroz tem 5kg. Se a mamãe comprou 2 pacotes, qual a massa total de arroz que ela tem em casa?",
         answers: [
             { text: "25kg", correct: false },
-            { text: "30kg", correct: true },
+            { text: "10kg", correct: true },
             { text: "35kg", correct: false },
             { text: "40kg", correct: false },
         ],
-        calculation: "6 pacotes x 5kg/pacote = 30kg."
+        calculation: "2 pacotes x 5kg/pacote = 10kg."
     },
     {
         question: "Para a festa, a Maria comprou 3 pacotes de balas, e cada pacote tem 200g. Qual é a massa total das balas?",
@@ -261,14 +261,14 @@ const questions = [
         calculation: "3 pacotes x 200g/pacote = 600g."
     },
     {
-        question: "O padeiro faz 5 pães iguais. Se cada pão tem 250g, qual a massa total de todos os pães?",
+        question: "O padeiro faz 4 pães iguais. Se cada pão tem 250g, qual a massa total de todos os pães?",
         answers: [
-            { text: "1kg", correct: false },
-            { text: "1kg e 250g", correct: true },
+            { text: "1kg", correct: true },
+            { text: "1kg e 250g", correct: false },
             { text: "1kg e 500g", correct: false },
             { text: "1kg e 750g", correct: false },
         ],
-        calculation: "5 pães x 250g/pão = 1250g, que é 1kg e 250g."
+        calculation: "4 pães x 250g/pão = 1000g, que é 1kg."
     },
     {
         question: "O atleta usa 2 pesos de 5kg cada para se exercitar. Qual a massa total que ele está levantando?",
