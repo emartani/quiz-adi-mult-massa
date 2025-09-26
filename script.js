@@ -372,6 +372,8 @@ function showQuestion() {
 function resetState() {
     nextButton.classList.add('hide');
     feedbackElement.innerText = '';
+    explanationBox.classList.add('hide'); 
+    calculationText.innerText = ''; 
     while (answerButtons.firstChild) {
         answerButtons.removeChild(answerButtons.firstChild);
     }
