@@ -127,7 +127,7 @@ h1 {
     font-size: 1.1rem;
     font-weight: bold;
     min-height: 25px;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 #next-btn {
@@ -138,7 +138,7 @@ h1 {
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 #next-btn:hover {
@@ -169,7 +169,7 @@ footer {
     border: 1px solid var(--primary-color);
     padding: 15px;
     border-radius: 8px;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: left;
     font-size: 1.1rem;
 }
