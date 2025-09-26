@@ -163,3 +163,24 @@ footer {
         text-overflow: ellipsis; /* Adiciona "..." no final se o texto for cortado */
     }
 }
+
+#explanation-box {
+    background-color: #e6f7e6; /* Um verde claro para destaque */
+    border: 1px solid var(--primary-color);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+#explanation-box h3 {
+    color: var(--primary-color);
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+#calculation {
+    font-weight: bold;
+    color: var(--tertiary-color);
+}
