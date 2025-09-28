@@ -184,3 +184,41 @@ footer {
     font-weight: bold;
     color: var(--tertiary-color);
 }
+
+
+.hide-initial {
+    display: none;
+}
+
+#start-btn {
+    /* Define a cor de fundo (verde, um bom contraste para começar) */
+    background-color: #546ba9; 
+    
+    /* Define a cor do texto (branco) */
+    color: white; 
+    
+    /* Adiciona um preenchimento (padding) para deixar o botão maior */
+    padding: 10px 20px; 
+    
+    /* Remove a borda padrão do botão */
+    border: none;
+    
+    /* Arredonda as bordas */
+    border-radius: 5px; 
+    
+    /* Altera o cursor para indicar que é clicável */
+    cursor: pointer;
+    
+    /* Adiciona uma sombra suave para dar profundidade */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    /* Opcional: Torna o texto em maiúsculas e negrito */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Efeito ao passar o mouse (melhora a experiência do usuário) */
+#start-btn:hover {
+    /* Escurece um pouco a cor de fundo ao passar o mouse */
+    background-color: #1e3c7e;
+}
